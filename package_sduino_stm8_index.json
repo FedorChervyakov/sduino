@@ -42,6 +42,36 @@
                 {
                     "name": "Sduino STM8 plain C core (non-C++)",
                     "architecture": "stm8",
+                    "version": "0.6.3",
+                    "category": "Contributed",
+                    "boards": [
+                        {"name": "STM8S103F3 Breakout Board"},
+                        {"name": "STM8S105C6 Discovery Board"},
+                        {"name": "STM8S105K4T6 Breakout Board"},
+                        {"name": "sduino UNO (STM8S105K6)"},
+                        {"name": "sduino MB (STM8S208MBT6B)"},
+                        {"name": "STM8S105S6 Custom Board"}
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "name": "STM8Tools",
+                            "version": "2019.02.05",
+                            "packager": "sduino"
+                        },
+                        {
+                            "name": "sdcc",
+                            "version": "build.11242",
+                            "packager": "sduino"
+                        }
+                    ],
+                    "url": "https://github.com/FedorChervyakov/sduino/releases/download/v0.6.3/sduino-core-0.6.3.tar.bz2",
+                    "archiveFileName": "sduino-core-0.6.3.tar.bz2",
+                    "checksum": "SHA-256:a6236bf7406d42180ab90924843aaa02979663d2dc41bac983b9d2895debbca3",
+                    "size": "2195825"
+                },
+                {
+                    "name": "Sduino STM8 plain C core (non-C++)",
+                    "architecture": "stm8",
                     "version": "0.6.2",
                     "category": "Contributed",
                     "boards": [
@@ -298,25 +328,25 @@
                     "systems": [
                         {
                             "host": "i686-pc-linux-gnu",
-                            "url": "https://github.com/FedorChervyakov/sduino/releases/download/v0.6.2/sduino-tools_linux32-2019.02.05.tar.bz2",
+                            "url": "https://github.com/FedorChervyakov/sduino/releases/download/v0.6.3/sduino-tools_linux32-2019.02.05.tar.bz2",
                             "archiveFileName": "sduino-tools_linux32-2019.02.05.tar.bz2",
                             "checksum": "SHA-256:5a00adf2c5e0f3b7f7e6882bb12d0a96c432271d5a5dde3d30c901ebdeaa3413",
                             "size": "48878"
                         },{
                             "host": "x86_64-pc-linux-gnu",
-                            "url": "https://github.com/FedorChervyakov/sduino/releases/download/v0.6.2/sduino-tools_linux64-2019.02.05.tar.bz2",
+                            "url": "https://github.com/FedorChervyakov/sduino/releases/download/v0.6.3/sduino-tools_linux64-2019.02.05.tar.bz2",
                             "archiveFileName": "sduino-tools_linux64-2019.02.05.tar.bz2",
                             "checksum": "SHA-256:8bbc3b5a8a3c11d9416a374fce8dec3d3cd23aa6e16e547413c938e22051ef27",
                             "size": "48604"
                         },{
                             "host": "x86_64-apple-darwin",
-                            "url": "https://github.com/FedorChervyakov/sduino/releases/download/v0.6.2/sduino-tools_macosx-2019.02.05.tar.bz2",
+                            "url": "https://github.com/FedorChervyakov/sduino/releases/download/v0.6.3/sduino-tools_macosx-2019.02.05.tar.bz2",
                             "archiveFileName": "sduino-tools_macosx-2019.02.05.tar.bz2",
                             "checksum": "SHA-256:a83dd1022c0739a577520bce54fdbd83c7a3c1726009efe9c9b43ee44f373a0d",
                             "size": "51593"
                         },{
                             "host": "i686-mingw32",
-                            "url": "https://github.com/FedorChervyakov/sduino/releases/download/v0.6.2/sduino-tools_mingw32-2019.02.05.tar.bz2",
+                            "url": "https://github.com/FedorChervyakov/sduino/releases/download/v0.6.3/sduino-tools_mingw32-2019.02.05.tar.bz2",
                             "archiveFileName": "sduino-tools_mingw32-2019.02.05.tar.bz2",
                             "checksum": "SHA-256:680bd97f202cee99b34f45077e2f57289653fd33f1d2aea0520148e2c466ecea",
                             "size": "417753"
