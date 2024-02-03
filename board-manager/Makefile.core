@@ -47,7 +47,7 @@ $(COREFILE): | $(COREDIR)
 	cd ..; git archive -v HEAD:sduino/stm8|tar -x -C $(TMPDIR)
 	sed -i '/^tools\.stm8/ s#{runtime.hardware.path}/tools#{runtime.tools.STM8Tools.path}#' \
 		$(TMPDIR)/platform.txt
-	tar cvjf $(COREFILE) -C $(TMPDIR) .
+	tar --xform s:'.':'sduino-core-$(COREVERSION)': -cvjf $(COREFILE) -C $(TMPDIR) .
 	rm -rf $(TMPDIR)
 
 # make a new release directory if not present

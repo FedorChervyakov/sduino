@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 
 
+## [0.6.1 - 2024-02-03]
+
+
 ## [0.5 - 2019-05-10]
 ### Changed
 - reduced binary size by splitting some Arduino core files

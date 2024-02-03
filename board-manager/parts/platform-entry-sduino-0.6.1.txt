@@ -1,7 +1,7 @@
                 {
                     "name": "Sduino STM8 plain C core (non-C++)",
                     "architecture": "stm8",
-                    "version": "0.6",
+                    "version": "0.6.1",
                     "category": "Contributed",
                     "boards": [
                         {"name": "STM8S103F3 Breakout Board"},
@@ -23,8 +23,8 @@
                             "packager": "sduino"
                         }
                     ],
-                    "url": "https://github.com/FedorChervyakov/sduino/releases/download/v0.6/sduino-core-0.6.tar.bz2",
-                    "archiveFileName": "sduino-core-0.6.tar.bz2",
-                    "checksum": "SHA-256:ba8d30bed67e50e4fbc7cb617752140466d038e2ccddd9e09bca54984c9b17da",
-                    "size": "2193349"
+                    "url": "https://github.com/FedorChervyakov/sduino/releases/download/v0.6.1/sduino-core-0.6.1.tar.bz2",
+                    "archiveFileName": "sduino-core-0.6.1.tar.bz2",
+                    "checksum": "SHA-256:a56b200da564b9c5a6e3bae4aeb953449845d55e053bfbbfec862e6ac24b3e59",
+                    "size": "2192450"
                 },

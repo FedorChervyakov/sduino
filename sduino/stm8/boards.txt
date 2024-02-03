@@ -144,3 +144,36 @@ mb208.build.f_cpu=16000000L
 mb208.build.board=STM8S_MB
 mb208.build.core=sduino
 mb208.build.variant=mb208
+
+
+##############################################################
+
+stm8s105s6_custom.name=STM8S105S6 Custom Board
+
+# First upload method is the default method
+stm8s105s6_custom.menu.upload_method.stm8flash_onboardMethod=Onboard ST-Link/V1 programmer
+stm8s105s6_custom.menu.upload_method.stm8flash_onboardMethod.upload.tool=stm8flash
+stm8s105s6_custom.menu.upload_method.stm8flash_onboardMethod.upload.protocol=stlink
+
+stm8s105s6_custom.menu.upload_method.stm8flashMethod=external ST-Link/V2 programmer
+stm8s105s6_custom.menu.upload_method.stm8flashMethod.upload.tool=stm8flash
+stm8s105s6_custom.menu.upload_method.stm8flashMethod.upload.protocol=stlinkv2
+
+stm8s105s6_custom.menu.upload_method.stm8galMethod=Serial (using stm8gal with builtin bootloader)
+stm8s105s6_custom.menu.upload_method.stm8galMethod.upload.tool=stm8gal
+stm8s105s6_custom.menu.upload_method.stm8galMethod.upload.protocol=serial
+stm8s105s6_custom.menu.upload_method.stm8galMethod.params.reset=-R 1
+
+# a global definition of upload speed is required to keep the makefile happy
+stm8s105s6_custom.upload.speed=115200
+stm8s105s6_custom.upload.mcu=stm8s105?6
+stm8s105s6_custom.upload.maximum_size=32768
+stm8s105s6_custom.upload.maximum_data_size=2048
+
+stm8s105s6_custom.bootloader.tool=stm8flash
+
+stm8s105s6_custom.build.mcu=STM8S105
+stm8s105s6_custom.build.f_cpu=16000000L
+stm8s105s6_custom.build.board=STM8S105S6_CUSTOM
+stm8s105s6_custom.build.core=sduino
+stm8s105s6_custom.build.variant=stm8s105s6_custom

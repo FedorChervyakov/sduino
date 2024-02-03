@@ -33,7 +33,7 @@ TRUNK=$1
 VERSION=$2
 COREVERSION=$3
 
-BASEURL=https://github.com/tenbaht/sduino/releases/download/v${COREVERSION}
+BASEURL=https://github.com/FedorChervyakov/sduino/releases/download/v${COREVERSION}
 
 ### helper functions #####################################################
 

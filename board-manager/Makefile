@@ -1,12 +1,12 @@
 # the required versions for the new build
-COREVERSION=0.5
+COREVERSION=0.6.1
 SDCCVERSION=11242
 TOOLSVERSION=2019.02.05
 
 # default the tool version to be the current date as YYYY.MM.DD
 #TOOLSVERSION?=$(shell date '+%Y.%m.%d')
 
-BASEURL=https://github.com/tenbaht/sduino/releases/download/v$(COREVERSION)
+BASEURL=https://github.com/FedorChervyakov/sduino/releases/download/v$(COREVERSION)
 
 PACKAGEFILE=package_sduino_stm8_index.json
 

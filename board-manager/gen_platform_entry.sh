@@ -23,7 +23,7 @@ SDCCVERSION=$3
 TOOLSVERSION=$4
 PACKAGER=sduino
 
-BASEURL=https://github.com/tenbaht/sduino/releases/download/v${COREVERSION}
+BASEURL=https://github.com/FedorChervyakov/sduino/releases/download/v${COREVERSION}
 
 ### helper functions #####################################################
 
